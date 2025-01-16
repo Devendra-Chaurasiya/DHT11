@@ -1,6 +1,6 @@
 Here's a suggested `README.md` content for your project:
 
-```markdown
+
 # Raspberry Pi DHT11 Temperature and Humidity Monitoring
 
 This project uses a Raspberry Pi and a DHT11 sensor to monitor temperature and humidity. It includes two scripts:
