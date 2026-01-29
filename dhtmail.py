@@ -14,9 +14,9 @@ sensor = adafruit_dht.DHT11(board.D4)
 
 # Email sending function using SMTP
 def send_email(subject, body):
-    sender_email = "demoraspi43@gmail.com"  # Sender email (your email)
-    receiver_email = "devendrachaurasia12@example.com"  # Replace with recipient's email
-    password = "uqyx sluk xtuk iole"  # Use your Gmail password or App Password if 2FA is enabled
+    sender_email = "Sender mail"  # Sender email (your email)
+    receiver_email = "Receiver_email"  # Replace with recipient's email
+    password = "Gmail_App Password"  # Use your Gmail password or App Password if 2FA is enabled
 
     msg = MIMEMultipart()
     msg['From'] = sender_email
